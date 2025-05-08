@@ -1,0 +1,19 @@
+body {
+    background-color: #272727;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    height: 600px;
+    /* flex-flow: column wrap; */
+    justify-content: center;
+    align-items: center;
+    background-color: #6366f1;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: #38bdf8;
+}

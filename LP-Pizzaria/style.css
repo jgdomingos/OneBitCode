@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #ffa500;
+    --color-dark: #232323;
+    --color-light: #eaeaea;
+    --color-white: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: ystem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+a {
+    color: var(--color-primary);
+}
+
+header {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#home {
+    background-image: url("./img/Background.jpg");
+    background-size: cover;
+}
+
+.hero {
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    min-height: 75vh;
+    padding: 10rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.ctaBtn {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    border-radius: .5rem;
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 12px;
+    text-decoration: none;
+}
+
+section:not(#home) {
+  padding: 4rem;
+  text-align: center;
+}
+
+.menuList {
+    list-style: none;
+}
+
+.menuList > li {
+    background-color: var(--color-light);
+    border-radius: .5rem;
+    box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 1.5rem;
+    height: 28rem;
+    width: 28rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.menuList img {
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+.menuList h3,
+.menuList p {
+  padding: 1rem 1.25rem 0;
+}
+
+#about {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("./img/Background2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: var(--color-white);
+}
+
+address {
+  margin: 2rem 0;
+  font-style: italic;
+}
+
+address > * {
+  display: inline-block;
+  margin: 1.5rem;
+  text-align: left;
+}
+
+footer {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding: 2rem;
+  text-align: center;
+}

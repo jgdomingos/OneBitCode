@@ -21,3 +21,16 @@ if (attack > defense && shield === "N") {
 const updateLife = life - damage;
 
 alert("O personagem " + player2 + " ficou com " + updateLife + " pontos de vida!")
+alert(
+    "Perosnagem atacante:" +
+    "\nNome: " + player1 +
+    "\nPoder de ataque: " + attack+
+    "\n\n" +
+
+    "Personagem defensor:" +
+    "\nNome: " + player2 +
+    "\nDano recebido: " + damage +
+    "\nVida Atualizada: " + updateLife +
+    "\nPoder de defesa: " + defense +
+    "\nPossui escudo: " + shield
+)

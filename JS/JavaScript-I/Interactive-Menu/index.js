@@ -28,5 +28,5 @@ do {
         break
     default:
         alert("Escolha uma opção válida")
-    }1
+    }
 } while (option !== 5)
